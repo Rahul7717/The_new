@@ -1,0 +1,34 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:white;
+
+}
+.main{
+   margin-top: 2cap;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content:space-evenly;
+   font-size:3cap;
+   font-weight: 600;
+   transition: 500ms;
+   margin-left: 3.3rem;
+}
+.main .news{
+    color: black;
+    transition: 350ms;
+    text-decoration: none;
+}
+.news:active{
+    color: transparent;
+}
+.container{
+    
+    text-align: center;
+}
+img{
+    transition: 500ms;
+}
+img:hover{
+    box-shadow: 12px 10px 10px 5px purple;
+}
